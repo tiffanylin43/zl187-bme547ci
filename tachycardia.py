@@ -8,10 +8,14 @@ def receive_input():
 def is_tachycardic(A):
     a = A.lower()
     n = len(a)
+    m = 0
     for i in range(n):
         answer = a.startswith("tachycardic", i, n)
         if answer == 1:
-            print("The string contains 'tachycardic'")
+            print(bool(1))
+            m = 1
+    if m == 0:
+        print(bool(0))
 
 
 # main code
