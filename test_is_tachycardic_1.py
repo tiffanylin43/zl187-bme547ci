@@ -10,5 +10,3 @@ def test_is_tachycardic2():
     result = is_tachycardic("   hahahahanihaoya ")
     expected = bool(0)
     assert result == expected
-
-
