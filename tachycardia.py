@@ -16,6 +16,7 @@ def is_tachycardic(A):
             m = 1
     if m == 0:
         print(bool(0))
+    return bool(m)
 
 
 # main code
