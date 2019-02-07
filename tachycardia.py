@@ -11,7 +11,7 @@ def is_tachycardic(A):
     m = 0
     for i in range(n):
         answer = a.startswith("tachycardic", i, n)
-        if answer == 1:
+        if answer == bool(1):
             print(bool(1))
             m = 1
     if m == 0:
